@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected function tearDown()
+{
+	${2://body}
+}
+]]></content>
+	<tabTrigger>tdown</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

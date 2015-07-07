@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected function setUp()
+{
+	${2://body}
+}
+]]></content>
+	<tabTrigger>tup</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

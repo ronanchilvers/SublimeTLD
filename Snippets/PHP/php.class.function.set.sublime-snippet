@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:__set}(${2:\$var}, ${3:\$value})
+{
+	${4://body}
+}
+]]></content>
+	<tabTrigger>set</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

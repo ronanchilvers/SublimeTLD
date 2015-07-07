@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+${2:public} static function ${3:name}(${4:\$arg})
+{
+	${5://body}
+}
+]]></content>
+	<tabTrigger>static</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

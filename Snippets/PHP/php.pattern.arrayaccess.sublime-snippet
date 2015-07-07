@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/** START ArrayAccess compliance **/
+
+public function offsetExists(\$offset)
+{}
+
+public function offsetGet(\$offset)
+{}
+
+public function offsetSet(\$offset, \$value)
+{}
+
+public function offsetUnset(\$offset)
+{}
+
+/** END ArrayAccess compliance **/
+
+]]></content>
+	<tabTrigger>arrayaccess</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

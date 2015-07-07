@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?// @TODO Remove var_dump
+echo '<pre>'; var_dump($1); exit(); ?>
+]]></content>
+	<tabTrigger>vard</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

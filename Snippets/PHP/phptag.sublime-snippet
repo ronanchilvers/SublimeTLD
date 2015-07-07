@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**
+ * The Little Dot
+ *
+ * @category    $1
+ * @package     $2
+ * @copyright   Copyright (c) 2012 The Little Dot
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+$3
+]]></content>
+	<tabTrigger>phptag</tabTrigger>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/** START Countable compliance **/
+
+public function count()
+{}
+
+/** END Countable compliance **/
+
+]]></content>
+	<tabTrigger>countable</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+/** START Iterator compliance **/
+
+public function current()
+{}
+
+public function key()
+{}
+
+public function next()
+{}
+
+public function rewind()
+{}
+
+public function valid()
+{}
+
+/** END Iterator compliance **/
+
+]]></content>
+	<tabTrigger>iterator</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

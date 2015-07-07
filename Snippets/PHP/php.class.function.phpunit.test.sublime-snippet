@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Test that $1
+ *
+ * @test
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function test${2:Name}(${3:\$arg})
+{
+	${4://body}
+}
+]]></content>
+	<tabTrigger>test</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

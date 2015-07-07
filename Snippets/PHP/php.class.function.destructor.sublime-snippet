@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Class destructor
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function __destruct($1)
+{$2}
+]]></content>
+	<tabTrigger>destruct</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

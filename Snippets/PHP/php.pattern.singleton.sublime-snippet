@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * The singleton instance of this class
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected static \$singleton = null;
+
+/**
+ * Standard singleton static getter
+ *
+ * @return static
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public static function singleton()
+{
+	if (false == (static::\$singleton instanceof static))
+	{
+		static::\$singleton = new static();
+	}
+	return static::\$singleton;
+}
+
+/**
+ * Class constructor
+ *
+ * Protected to comply with the singleton pattern
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected function __construct()
+{}
+
+/**
+ * Magic clone method
+ *
+ * Protected to comply with the singleton pattern
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected function __clone()
+{}
+
+]]></content>
+	<tabTrigger>singleton</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

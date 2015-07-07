@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+protected function ${2:name}(${3:\$arg})
+{
+	${4://body}
+}
+]]></content>
+	<tabTrigger>protected</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public function __call(${1:\$method}, ${2:\$args})
+{
+	${3://body}
+}
+]]></content>
+	<tabTrigger>call</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

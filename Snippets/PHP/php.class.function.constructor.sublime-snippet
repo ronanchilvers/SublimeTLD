@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Class constructor
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function ${1:__construct}(${2:\$arg})
+{
+	${3://body}
+}
+]]></content>
+	<tabTrigger>cons</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

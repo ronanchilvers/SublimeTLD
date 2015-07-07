@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * $1
+ *
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License Version 2
+ * @author     Ronan Chilvers <ronan@thelittledot.com>
+ */
+]]></content>
+    <tabTrigger>gpl</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

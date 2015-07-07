@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+abstract protected function $2($3);
+]]></content>
+	<tabTrigger>protecteda</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

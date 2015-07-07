@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * $1
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function ${2:data}Provider()
+{
+	${3://body}
+}
+]]></content>
+	<tabTrigger>tprov</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

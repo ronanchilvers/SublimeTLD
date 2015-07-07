@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+// @TODO Remove var_dump
+var_dump($1); exit();
+]]></content>
+	<tabTrigger>vard</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

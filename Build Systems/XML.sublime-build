@@ -1,0 +1,5 @@
+{
+    "cmd": ["/usr/bin/xmllint", "--noout", "$file"],
+    "selector": "text.xml",
+    "file_regex": "^.*$"
+}

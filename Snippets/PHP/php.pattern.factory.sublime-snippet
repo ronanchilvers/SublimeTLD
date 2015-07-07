@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Standard factory method
+ *
+ * @return static
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public static function factory()
+{
+	return new static();
+}
+]]></content>
+	<tabTrigger>factory</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

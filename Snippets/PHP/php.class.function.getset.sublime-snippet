@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+protected \$_params = array();
+
+public function ${1:__get}(${2:\$var})
+{
+	${3:return \$this->_params[\$var];}
+}
+
+public function ${4:__set}(${5:\$var}, ${6:\$value})
+{
+	${7:\$this->_params[\$var] = \$value;}
+}
+]]></content>
+	<tabTrigger>getset</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

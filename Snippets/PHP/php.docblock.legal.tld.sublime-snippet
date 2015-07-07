@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:$TM_FILENAME}
+ *
+ * @author    Ronan Chilvers <ronan@d3r.com>
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU GPL V2.0
+ * @package   ${2:TLD}
+ */
+$3
+]]></content>
+    <tabTrigger>legal</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
