@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Get the $1
+ *
+ * @return $2
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function get$3()
+{
+    return \$this->$4;
+}
+
+/**
+ * Set the $1
+ *
+ * @param $2
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+public function set$3(\$value)
+{
+    \$this->$4 = \$value;
+}
+]]></content>
+    <tabTrigger>getset</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
