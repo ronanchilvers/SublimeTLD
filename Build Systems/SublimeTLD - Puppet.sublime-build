@@ -1,0 +1,13 @@
+{
+    "cmd": [
+        "/opt/puppetlabs/puppet/bin/puppet",
+        "parser",
+        "validate",
+        "--color=false",
+        "--confdir=/tmp",
+        "--vardir=/tmp",
+        "$file"
+    ],
+    "selector": "source.puppet",
+    "file_regex": "^.*$"
+}

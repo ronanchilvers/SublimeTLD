@@ -1,5 +1,5 @@
 {
-    "cmd": ["/usr/bin/php", "-l", "$file"],
+    "cmd": ["/usr/bin/env php", "-l", "$file"],
     "file_regex": "^Parse error: .* in (.*?) on line ([0-9]*)",
     "selector": "source.php"
 }

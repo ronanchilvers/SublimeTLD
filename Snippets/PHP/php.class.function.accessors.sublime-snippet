@@ -14,7 +14,7 @@ public function get$3()
 /**
  * Set the $1
  *
- * @param $2
+ * @param $2 \$value
  * @author Ronan Chilvers <ronan@d3r.com>
  */
 public function set$3(\$value)
@@ -22,6 +22,6 @@ public function set$3(\$value)
     \$this->$4 = \$value;
 }
 ]]></content>
-    <tabTrigger>getset</tabTrigger>
+    <tabTrigger>accessors</tabTrigger>
     <scope>source.php</scope>
 </snippet>
